@@ -106,6 +106,6 @@ class Temperature{
 
 }
 
-tempA = new Temperature(30, TemperatureScale.Celcius);
-tempB = new Temperature(50, TemperatureScale.Fahrenheit);
-console.log(tempA.Add(tempB));
+t1 = new Temperature(30, TemperatureScale.Celcius);
+t2 = new Temperature(50, TemperatureScale.Fahrenheit);
+console.log(t1.Add(t2B));
