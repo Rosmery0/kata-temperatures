@@ -1,0 +1,24 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "temperatures.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "jest": "^29.0.1"
+  },
+  "eslintConfig": {
+    "extends": "node_modules/standard/eslintrc.json",
+    "env": {
+      "jest": true
+    }
+  }
+}

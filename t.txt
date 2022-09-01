@@ -1,0 +1,65 @@
+For add
+TC1. When 30C + 50F should be 40C
+TC2. When 25C + 18C should be 43C
+TC3. When 30C + 50K should be -193.14999999999998C
+TC4. When 30F + 50F should be 80F
+TC5. When 30F + 50C should be 152F
+TC6. When 30F + 50K should be -339.40000000000003F40C
+TC7. When 30K + 50K should be 80K
+TC8. When 30k + 50F should be 40K
+TC9. When 30K + 50C should be 313.15K
+
+For Substract
+TC1. When 30C - 50F should be 20C
+TC2. When 30C - 50C should be 80C
+TC3. When 30C - 50K should be 253.14999999999998C
+TC4. When 30F - 50F should be -20F
+TC5. When 30F - 50C should be -92F
+TC6. When 30F - 50K should be 399.40000000000003F
+TC7. When 30K - 50K should throw an error with de message 'Kelvin cant be zero or less'
+TC8. When 30k - 50F should be 20K
+TC9. When 30K - 50C should throw an error with de message 'Kelvin cant be zero or less'
+
+For MultiplyBy
+TC1. When 30C * 50F should be 300C
+TC2. When 30C * 50C should be 1500C
+TC3. When 30C * 50K should be -6694.499999999999C
+TC4. When 30F * 50F should be 1500F
+TC5. When 30F * 50C should be 3660F
+TC6. When 30F * 50K should be -11082.000000000002F
+TC7. When 30K * 50K should be 1500K
+TC8. When 30k * 50F should be 300K
+TC9. When 30K * 50C should be 8494.5K
+
+For DivideBy
+TC1. When 30C / 50F should be 3C
+TC2. When 30C / 50C should be 0.6C
+TC3. When 30C / 50K should be -0.13443871835088506C
+TC4. When 30F / 50F should be 0.6F
+TC5. When 30F / 50C should be 0.2459016393442623F3660F
+TC6. When 30F / 50K should be -0.08121277747698971F
+TC7. When 30K / 50K should be 0.6K
+TC8. When 30k / 50F should be 3K
+TC9. When 30K / 50C should be 0.10595090941197247K
+
+For ToKelvin
+TC1. When 0K should throw an error message 'Kelvin cant be zero or less'
+TC2. When -5K should throw an error massage 'Kelvin cant be zero or less'
+TC3. When 30C should be 272.0388888888889K.
+TC4. When 30F should throw an error massage 'Kelvin cant be zero or less'
+TC5. When 110F should be 43.333333333333336K
+TC6. When 110K should be 110K
+
+For ToFahrenheit
+TC1. When 110K should be -261.40000000000003F
+TC2. When 110C should be 230F
+TC3. When 110F should be 110F
+
+For ToCelcius
+TC1. When 110K should be -163.14999999999998C
+TC2. When 110F should be 43.333333333333336C
+TC3. When 110C should be 110C
+
+For ToString
+TC1. When 110K should be '110K'
+
